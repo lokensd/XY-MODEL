@@ -14,7 +14,7 @@ from numpy import pi
 ## applying Metropolis algorithm
 # input: T/temperature
 #        S/spins configuration(in 1d list)
-#        H/ecternal field.default value=0
+#        H/external field.default value=0
 
 class XYSystem():
     def __init__(self,temperature = 3,width=10):
